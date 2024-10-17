@@ -363,7 +363,7 @@ h1, h2, p{
 }
 .nav {
     background-color: #00B4D8;
-    padding: px; 
+    padding: 10px; 
     position: fixed; 
     bottom: 0;
     left: 50%; 
@@ -396,6 +396,14 @@ h1, h2, p{
 .nav a img {
     width: 33px;
     height: 33px; 
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    width: 100%;
+    min-width: auto;
+    border-radius: 0; 
+  }
 }
 
 .button-57 {
