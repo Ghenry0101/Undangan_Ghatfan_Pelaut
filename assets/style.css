@@ -377,9 +377,6 @@ h1, h2, p{
     border-radius: 30px;
     transition: width 0.6s ease-out;
 }
-
-
-
 .nav a {
     color: #ffffff;
     text-decoration: none;
@@ -395,14 +392,6 @@ h1, h2, p{
 .nav a img {
     width: 33px;
     height: 33px; 
-}
-
-@media (max-width: 768px) {
-  .nav {
-    width: 60%;
-    min-width: auto;
-    border-radius: 0; 
-  }
 }
 
 .button-57 {
