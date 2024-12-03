@@ -399,6 +399,8 @@ h1, h2, p{
         background-color: #00B4D8;
         padding: 10px;
         position: sticky;
+        margin: 0 auto;
+        top: auto; 
         bottom: 0;
         left: 50%;
         transform: translateX(-50%);
