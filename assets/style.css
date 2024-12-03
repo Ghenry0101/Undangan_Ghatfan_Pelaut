@@ -399,7 +399,7 @@ h1, h2, p{
 
 @media (max-width: 768px) {
   .nav {
-    width: 50%;
+    width: 60%;
     min-width: auto;
     border-radius: 0; 
   }
