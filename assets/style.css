@@ -363,6 +363,7 @@ h1, h2, p{
 }
 .nav {
     background-color: #00B4D8;
+    padding: px; 
     position: fixed; 
     bottom: 0;
     left: 50%; 
@@ -398,7 +399,7 @@ h1, h2, p{
 
 @media (max-width: 768px) {
   .nav {
-    width: 80%;
+    width: 50%;
     min-width: auto;
     border-radius: 0; 
   }
