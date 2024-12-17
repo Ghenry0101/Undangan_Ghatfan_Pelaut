@@ -381,6 +381,27 @@ h1, h2, p{
     border-radius: 30px;
     transition: width 0.6s ease-out;
 }
+
+@media (max-width: 768px) {
+    .nav {
+    background-color: #00B4D8;
+    padding: px; 
+    position: fixed; 
+    bottom: 0;
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 60%; 
+    z-index: 100;
+    display: flex;
+    justify-content: space-around;
+    overflow-x: hidden;
+    overflow-y: hidden; 
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    transition: width 0.6s ease-out;
+    }
+}
+
 .nav a {
     color: #ffffff;
     text-decoration: none;
