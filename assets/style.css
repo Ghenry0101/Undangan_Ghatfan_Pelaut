@@ -3,7 +3,6 @@ body, html {
     margin: 0;
     font-family: Arial, sans-serif;
   overflow-x: hidden;
-  overflow-y: hidden; 
 }
 
 
@@ -15,7 +14,6 @@ body {
     color: var(white);
     background-attachment: fixed;
   overflow-x: hidden; 
-  overflow-y: hidden; 
 }
 
 @keyframes perahuGerak {
