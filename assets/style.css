@@ -372,7 +372,7 @@ h1, h2, p{
     z-index: 100;
     display: flex;
     justify-content: space-around;
-    overflow-x: auto;
+    overflow-x: hidden;
     box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
     border-radius: 30px;
     transition: width 0.6s ease-out;
