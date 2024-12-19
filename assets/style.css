@@ -15,6 +15,7 @@ body {
     color: var(white);
     background-attachment: fixed;
     overflow-x: hidden;
+    overflow-y: hidden;
     
 }
 
