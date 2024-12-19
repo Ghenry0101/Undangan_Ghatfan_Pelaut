@@ -377,7 +377,6 @@ h1, h2, p{
     display: flex;
     justify-content: space-around;
     overflow-x: hidden;
-    overflow-y: hidden;
     box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
     border-radius: 30px;
     transition: width 0.6s ease-out;
@@ -399,7 +398,6 @@ h1, h2, p{
     box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
     border-radius: 20px;
     transition: width 0.6s ease-out;
-    min-width: 100px
     align-items: center;
     }
 }
