@@ -3,6 +3,7 @@ body, html {
     margin: 0;
     font-family: Arial, sans-serif;
     overflow-x: hidden;
+     overflow-y: hidden;
 }
 
 
@@ -14,6 +15,7 @@ body {
     color: var(white);
     background-attachment: fixed;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 @keyframes perahuGerak {
@@ -366,6 +368,7 @@ h1, h2, p{
     background-color: #00B4D8;
     padding: px; 
     position: fixed; 
+    left: 50%;
     bottom: 0;
     transform: translateX(-50%); 
     width: 80%; 
@@ -377,10 +380,28 @@ h1, h2, p{
     box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
     border-radius: 30px;
     transition: width 0.6s ease-out;
-    min-width: 700px
+    min-width: 800px
 }
 
-
+@media (max-width: 768px) {
+    .nav {
+    background-color: #00B4D8;
+    padding: px; 
+    position: fixed;
+    bottom: 0;
+    transform: translateX(-50%); 
+    width: 60%; 
+    z-index: 100;
+    display: flex;
+    justify-content: space-around;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    transition: width 0.6s ease-out;
+    min-width: 600px
+    }
+}
 
 .nav a {
     color: #ffffff;
