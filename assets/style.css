@@ -385,10 +385,12 @@ h1, h2, p{
 
 @media (max-width: 768px) {
     .nav {
+    right:10%;
     background-color: #00B4D8;
     padding: px; 
     position: fixed;
     bottom: 0;
+    width:10%;
     transform: translateX(-20%); 
     z-index: 100;
     display: flex;
