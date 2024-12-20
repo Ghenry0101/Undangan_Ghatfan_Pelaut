@@ -2,7 +2,6 @@ body, html {
     height: 100%;
     margin: 0;
     font-family: Arial, sans-serif;
-    overflow-x: hidden;
 }
 
 
@@ -13,7 +12,6 @@ body {
     background-repeat: no-repeat;
     color: var(white);
     background-attachment: fixed;
-    overflow-x: hidden;
     
 }
 
