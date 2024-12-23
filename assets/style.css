@@ -382,6 +382,7 @@ h1, h2, p{
     .nav {
     background-color: #00B4D8;
     padding: px; 
+    right: 20%;
     position: fixed;
     bottom: 0;
     width:10%;
